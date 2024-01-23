@@ -3,3 +3,4 @@ curl -s https://api.github.com/repos/FiloSottile/mkcert/releases/latest | grep b
 sudo mv mkcert-v*-linux-amd64 /usr/bin/mkcert
 sudo chmod +x /usr/bin/mkcert
 mkcert --version
+mkcert test.example.com localhost 127.0.0.1 ::1

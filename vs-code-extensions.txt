@@ -1,0 +1,57 @@
+# this file was made by code --list-extensions
+# need to find a way to update it every once in a while somehow.
+# also work on profiles to see how i can differentiate between those
+# also sync them through github
+# web-dev
+ms-playwright.playwright
+dsznajder.es7-react-js-snippets
+formulahendry.auto-close-tag
+csstools.postcss
+bradlc.vscode-tailwindcss
+esbenp.prettier-vscode
+ritwickdey.liveserver
+sidthesloth.html5-boilerplate
+syler.sass-indented
+wix.glean
+
+# C++
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+twxs.cmake
+
+
+# Rust
+rust-lang.rust-analyzer
+tamasfe.even-better-toml
+
+# python
+ms-python.debugpy
+ms-python.isort
+ms-python.python
+ms-python.vscode-pylance
+
+
+# themes
+vangware.dark-plus-material
+akamud.vscode-theme-onedark
+ms-vscode.theme-materialkit
+
+# general
+aaron-bond.better-comments
+github.copilot
+github.copilot-chat
+k--kato.intellij-idea-keybindings
+bierner.markdown-preview-github-styles
+ms-vsliveshare.vsliveshare
+gruntfuggly.todo-tree
+pkief.material-icon-theme
+uctakeoff.vscode-counter
+vscodevim.vim
+
+#optional
+grapecity.gc-excelviewer
+james-yu.latex-workshop
+
+
+

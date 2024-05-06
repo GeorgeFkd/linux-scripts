@@ -1,7 +1,10 @@
 # this file was made by code --list-extensions
 # need to find a way to update it every once in a while somehow.
 # also work on profiles to see how i can differentiate between those
+# more on that here https://code.visualstudio.com/docs/editor/profiles#_workspace-associations
 # also sync them through github
+
+
 # web-dev
 ms-playwright.playwright
 dsznajder.es7-react-js-snippets

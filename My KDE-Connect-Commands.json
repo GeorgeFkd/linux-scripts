@@ -1,0 +1,54 @@
+[
+    {
+        "command": "flatpak run org.mozilla.firefox",
+        "name": "Firefox"
+    },
+    {
+        "command": "loginctl lock-session",
+        "name": "Lock Screen"
+    },
+    {
+        "command": "pycharm",
+        "name": "Pycharm"
+    },
+    {
+        "command": "rustrover",
+        "name": "RustIDE"
+    },
+    {
+        "command": "systemctl poweroff",
+        "name": "Shutdown"
+    },
+    {
+        "command": "systemctl suspend",
+        "name": "Sleep PC"
+    },
+    {
+        "command": "flatpak run com.spotify.Client",
+        "name": "Spotify"
+    },
+    {
+        "command": "flatpak run com.stremio.Stremio",
+        "name": "Stremio "
+    },
+    {
+        "command": "gnome-terminal",
+        "name": "Terminal"
+    },
+    {
+        "command": "flatpak run org.mozilla.Thunderbird",
+        "name": "Thunderbird"
+    },
+    {
+        "command": "loginctl unlock-session",
+        "name": "Unlock Screen"
+    },
+    {
+        "command": "flatpak run org.zotero.Zotero",
+        "name": "Zotero"
+    },
+    {
+        "command": "",
+        "name": ""
+    }
+]

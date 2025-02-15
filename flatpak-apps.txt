@@ -1,0 +1,11 @@
+org.kde.kolourpaint
+org.kde.krita
+org.kde.okular
+org.lamport.tla.toolbox
+org.mozilla.Thunderbird
+org.mozilla.firefox
+org.upscayl.Upscayl
+org.videolan.VLC
+org.zotero.Zotero
+org.my.ass
+org.my.butt

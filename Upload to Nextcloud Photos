@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+"""
+A script to move things to my Nextcloud Photos.
+"""
+import os
+
+import subprocess
+
+
+import os 
+import subprocess
+def main():
+    print(f"Env var is: {os.getenv("NAUTILUS_SCRIPT_SELECTED_FILE_PATHS")}")
+    for path in os.getenv("NAUTILUS_SCRIPT_SELECTED_FILE_PATHS",'').splitlines():
+        subprocess.run(["cp",path, "/home/georgefkd/Nextcloud/Photos"])
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Snippets
+Comment=Code Snippets App
+Exec=bash -c "docker run --replace --name snippets -d -p 5000:5000 localhost/snippets"
+Icon=/usr/share/icons/convertx/128x128/convertx.png
+Categories=Utility;
+Terminal=false
+StartupNotify=true

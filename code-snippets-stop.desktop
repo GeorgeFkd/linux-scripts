@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Snippets-Stop
+Comment=Code Snippets App
+Exec=bash -c "docker stop snippets"
+Icon=/usr/share/icons/convertx/128x128/convertx.png
+Categories=Utility;
+Terminal=false
+StartupNotify=false

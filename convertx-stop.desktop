@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ConvertX-Stop
+Comment=Kill ConvertX Server
+Exec=bash -c "docker stop converterx"
+Icon=/usr/share/icons/convertx/128x128/convertx.png
+Categories=Utility;
+Terminal=false
+StartupNotify=false

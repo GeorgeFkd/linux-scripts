@@ -15,8 +15,9 @@ Various linux scripts that are needed on separate occasions
 [ ] Download texlive for latex (or setup overleaf locally)
 [ ] Remove gnome games 
 [ ] Install Spotify
-[ ] Change a few shortcuts
+[ ] Change a few gnome shortcuts
 [ ] Install Okular
+[ ] Add Music folder to Amberol
 [ ] Install Qt libraries(qt6-base-devel and qt6-base-common-devel should be enough as starters)
 [ ] Change fonts in the terminal (for neovim devicons to load properly, [Hack Nerd Font here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip))
 [ ] Pinning things to dock (browser,thunderbird,zotero,spotify,files,terminal)
@@ -65,4 +66,7 @@ Various linux scripts that are needed on separate occasions
 `rm -rf ~/Music`
 
 `ln -s ~/Nextcloud/Music ~/Music`
+
+(The Music app in gnome does not support symlinked songs)
+`flatpak install flathub io.bassi.Amberol`
 

@@ -53,3 +53,9 @@ Various linux scripts that are needed on separate occasions
 
 `chmod +x ~/.local/share/nautilus/scripts/*`
 
+#### Openboard documents
+
+`rm -rf ~/.local/share/OpenBoard/document`
+
+`ln -s ~/Nextcloud/openboard/ ~/.local/share/OpenBoard/document`
+

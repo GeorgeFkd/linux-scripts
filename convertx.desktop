@@ -3,7 +3,8 @@ Type=Application
 Name=ConvertX
 Comment=ConvertX Application
 # Start the Docker container and open the browser
-Exec=bash -c "docker run --replace --name converterx -d -p 3000:3000 -v $HOME/programming/experiments/convertx/data:/app/data ghcr.io/c4illin/convertx"
+# Problem is that docker needs sudo, sth with pkexec is needed 
+Exec=bash -c "docker run --name converterx -d -p 3000:3000 -v $HOME/programming/experiments/convertx/data:/app/data ghcr.io/c4illin/convertx"
 # Use your custom icon (name only, no extension)
 Icon=/usr/share/icons/convertx/128x128/convertx.png
 Categories=Utility;

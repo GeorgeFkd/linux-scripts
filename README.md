@@ -59,3 +59,10 @@ Various linux scripts that are needed on separate occasions
 
 `ln -s ~/Nextcloud/openboard/ ~/.local/share/OpenBoard/document`
 
+#### Music
+
+(might need to recreate an OpenBoard folder)
+`rm -rf ~/Music`
+
+`ln -s ~/Nextcloud/Music ~/Music`
+
